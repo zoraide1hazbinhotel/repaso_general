@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+
+    background-color: rgb(236, 206, 161);
+}
+#titulo_logo{
+    padding-left: 60px; 
+    padding-top: 30px; 
+    
+}
+
+.menu_navegacion {
+display: block;
+  font-size: 19px;
+  text-align: right;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+.menu_navegacion ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu_navegacion li{
+    display: inline-block;
+}
+.menu_navegacion li a{
+    color: black;
+    display: block;
+    padding: 10px;
+}
+.menu_navegacion li a:hover{
+    background-color: blanchedalmond;
+}
+form{
+    text-align: right;
+    padding-right: 40px;
+    font-size: 1.2rem;
+}
+
+.imagen{  
+    width: 900px;
+    height: 650px;
+    margin-top: 30px;   
+    margin-left: 240px;
+    margin-right: 200px;
+}
+
+.carta{ 
+   width: auto;
+   height: auto;
+   margin-top: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+p{
+    font-size: 1.2rem;
+}
+#titulo{
+    text-align: center;
+    background: rgb(236, 206, 161);
+}
+
+h2{
+    text-align: center;
+}
+.carta h3{
+    margin-top: 0px;
+}
+.carta .ingredientes h2{
+    text-align: left;
+}
+.carta .ingredientes li{
+    font-size: 1.2rem;
+   padding: 10px;
+}
+label input{
+    border: 2px solid rgba(var(--color-7), 1);
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 20px;
+}
+ul{
+    list-style: none;
+}
+h3{
+    margin-left: 90px;
+    font-size: 1.3rem;
+}
+.final{
+    background-color: rgb(236, 206, 161);
+    padding-bottom: 50px;
+
+}
+#historia{
+    border: 10px dashed burlywood;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
