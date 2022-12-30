@@ -8,12 +8,11 @@
 <body>
     <div class="logo">
     <h1 id="titulo_logo">Blog Dulces Delicias</h1>
-    <form action="busqueda" method="get">
-        <p>Buscar receta:  <input type="text" name="buscar receta" pattern="[a-z] {8-20} 
-        "title="La receta puede contener mayusculas y minusculas,pero no letras." required>
-        <input type="submit" value="buscar">
-        </p>
-    </form>
+    
+    <label for="input_receta">Buscar receta:</label>
+    <input id="input_receta" type="text" name="buscar receta" 
+    title="La receta puede contener mayusculas y minusculas,pero no letras." required>
+    <button id="button_buscar">Buscar</button>
 
     <nav class="menu_navegacion">
         <ul>

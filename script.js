@@ -2,7 +2,7 @@
 let button = document.getElementById("button_buscar")
 
 let recetas_nombres = [
-    "Suspiro a la limena",
+    "Suspiro a la limeña",
     "Mini tarta de limon",
     "Cheesecake de maracuya"
 ]

@@ -8,12 +8,12 @@
 <body>
     <div class="logo">
     <h1 id="titulo_logo">Blog Dulces Delicias</h1>
-    <form action="busqueda" method="get">
-        <p>Buscar receta:  <input type="text" name="buscar receta" pattern="[a-z] {8-20} 
-        "title="La receta puede contener mayusculas y minusculas,pero no letras." required>
-        <input type="submit" value="buscar">
-        </p>
-    </form>
+    
+    <label for="input_receta">Buscar receta:</label>
+    <input id="input_receta" type="text" name="buscar receta" 
+    title="La receta puede contener mayusculas y minusculas,pero no letras." required>
+    <button id="button_buscar">Buscar</button>
+
 
     <nav class="menu_navegacion">
         <ul>
@@ -37,39 +37,41 @@
         </section><br>
         <section class="ingredientes">
         <h2><u>Ingredientes</u></h2>
-        <h3>Para la base:</h3>
+         
         <ul>
+        <h3>Para la base:</h3>
+        
             <li>320 gramos de galletas María</li>
             <li>100 gramos de mantequilla</li>
             <li>1 cucharadita de esencia de naranja</li>
-          
+         
         </ul><br>
-        <h3>Para el relleno</h3>
+        
+        <h3>Para la crema Cheesecake:</h3>
         <ul>
-            <li>100 g de azúcar</li>
-            <li>190 g de nata o crema de leche con 35% de grasa</label></li>
-            <li>2 huevos</li>
-            <li>60 ml de leche</li>
-            <li>25 g de maicena</li>
-            <li>Ralladura de cáscara de limón</li>
-            <li>100 g de jugo de limón</li>
+            <li>220 gramos de crema de leche</li>
+            <li>250 gramos de queso crema philadelphia</label></li>
+            <li>180 gramos de leche condensada</li>
+            <li>140 gramos de jugo de maracuyá sin las semillas</li>
+
         </ul>
-        <h3>Para decorar:</h3>
+        <h3>Para el almíbar:</h3>
         <ul>
-            <li>4 cdas. de azúcar moreno</li>
-            <li>Hojas de menta</li>
-            <li>Fruta (de tu elección)</li>
-            <li>Merengue (opcional)</li>
+            <li>220 gramos de semillas de maracuyá</li>
+            <li>120 gramos de azúcar</li>
+            <li>1 cucharada de vinagre blanco</li>
           
         </ul><br>
         <h2><u>Preparacion:</u></h2>
         
-        <ul>
-            <li><label><input type="checkbox">1.  Coloca las galletas y la mantequilla blanda en una trituradora o batidora y tritura completamente.
+        <ul> <img src="https://i.ytimg.com/vi/04ldbsWYPN8/maxresdefault.jpg" 
+        alt="base_de_galleta" class="sub_imagen">
+            <li><label><input type="checkbox">1.  Picar las maracuya, extraer la pulpa y colar, conversar tanto el jugo como las semillas.
             </label></li>
 
                <li><label><input type="checkbox">2.  En una bandeja coloca papel de horno y cuatro aros de emplatar encima. Saca la mezcla y reparte en los cuatro aros. Aplasta bien y reserva en el refrigerador.
-               </label></li>               
+               </label></li><br><br><br>
+                            
                <li><label><input type="checkbox">3.  Para la crema: mezcla en la licuadora el azúcar, los huevos, la nata y la leche junto con la maicena, la ralladura de limón y el jugo. Posteriomente, calienta a fuego medio y remueve hasta que espese. 
                </label></li>
                <li><label><input type="checkbox">4. Vierte la mezcla sobre las bases de galleta y deja enfriar en la nevera toda la noche. Desmolda al día siguiente y coloca las tartitas en platos individuales. 
