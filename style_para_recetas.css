@@ -35,7 +35,7 @@ display: block;
 .menu_navegacion li a:hover{
     background-color: blanchedalmond;
 }
-form{
+#buscador{
     text-align: right;
     padding-right: 40px;
     font-size: 1.2rem;
@@ -102,10 +102,23 @@ h3{
     height: auto;
     padding: 10px;
 }
-.sub_imagen{
+.sub_imagen_right{
     width: 400px;
     height: 200px;
     float: right;
-    padding-right: 50px;
-    padding-top: 0px;
+    padding-right: 30px;
+    padding-top: 0px;  
+}
+.sub_imagen_left{
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 0px;  
+}
+.imagen_final{
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    border-radius: 30px;
 }

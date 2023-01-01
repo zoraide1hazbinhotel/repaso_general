@@ -95,7 +95,7 @@ display: block;
 .card:hover .back{
     transform: perspective(600px) rotateX(360deg);
 }
-form{
+#buscador{
     text-align: right;
     padding-right: 40px;
     font-size: 1.2rem;
